@@ -8,12 +8,6 @@ const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
-DATABASE_URL = "postgres://danel2005:sOi7wdxWnouAdPNfaygjWsJzF84bqyEi@dpg-cmq0ahacn0vc73btsjf0-a/smart_brain_db_2f4i";
-DATABASE_HOST =  "dpg-cmq0ahacn0vc73btsjf0-a.oregon-postgres.render.com";
-DATABASE_USER = "danel2005";
-DATABASE_PW = "sOi7wdxWnouAdPNfaygjWsJzF84bqyEi";
-DATABASE_DB = "smart_brain_db_2f4i";
-
 const db = require('knex')({
     client: 'pg', // Change to 'pg' for PostgreSQL
     connection: {
